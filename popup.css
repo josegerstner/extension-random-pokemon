@@ -1,14 +1,35 @@
 body {
     background: #202020;
-    color: white;
+    color: #FAFAFA;
     font-family: 'Roboto', 'Arial Black';
-    font-size: 24px;
+    font-size: 18px;
     width: 500px;
-    height: 500px;
+    height: auto;
     text-align: center;
 }
 
 .responsive {
     height: auto;
     width: 80%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    border: 1px solid #FAFAFA;
+    background-color: #38444D;
+    color: #FAFAFA;
+    font-family: 'Roboto', 'Arial Black';
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #202020;
+}
+
+.shiny {
+    color: gold;
 }
