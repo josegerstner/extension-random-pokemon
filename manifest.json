@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Random Pokémon",
+    "version": "1.0",
+    "description": "Devuelve un pokémon random",
+    "icons": {
+        "128": "red-pokeball.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
